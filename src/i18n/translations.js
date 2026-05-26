@@ -1,0 +1,272 @@
+export const translations = {
+  it: {
+    a11y: { skip: 'Vai al contenuto' },
+    nav: {
+      story: 'Storia',
+      process: 'Processo',
+      catalogue: 'Catalogo',
+      contact: 'Contatti',
+    },
+    hero: {
+      eyebrow: 'Vini Biologici',
+      titleLine1: "L'Anima della Terra,",
+      titleLine2: 'in un Sorso',
+      ctaCatalogue: 'Esplora il Catalogo',
+      ctaStory: 'La nostra storia',
+    },
+    story: {
+      eyebrow: 'Radici & Visione',
+      innovationEyebrow: "L'Innovazione",
+      innovationTitle: 'Etichetta & Territorio',
+    },
+    process: {
+      eyebrow: 'Dal grappolo alla coppa',
+      title: 'Il Percorso del Vino',
+    },
+    catalogue: {
+      eyebrow: 'Collezione',
+      title: 'Catalogo Vini',
+      description:
+        'Cinque etichette, cinque espressioni del territorio abruzzese. Seleziona una tipologia e apri la scheda tecnica per l\'analisi completa.',
+      filters: {
+        tutti: 'Tutti',
+        rosso: 'Rossi',
+        rosato: 'Rosati',
+        bianco: 'Bianchi',
+      },
+    },
+    modal: {
+      technicalSheet: 'Scheda Tecnica',
+      close: 'Chiudi',
+      organoleptic: 'Profilo Organolettico',
+      analysis: 'Analisi Tecnica',
+      pairings: 'Abbinamenti consigliati',
+      closeAria: 'Chiudi scheda tecnica',
+    },
+    contact: {
+      eyebrow: 'Contatti',
+      title: 'Vieni a trovarci',
+      description:
+        'La cantina ERREDIA si trova a Manoppello Scalo, nel cuore delle colline vitate abruzzesi. Per visite e degustazioni, contattaci telefonicamente.',
+      addressLabel: 'Indirizzo',
+      phoneLabel: 'Telefono',
+      websiteLabel: 'Sito web',
+      visitsLabel: 'Visite in cantina',
+      visitsText: 'Su appuntamento — chiamaci per organizzare la tua esperienza.',
+      callCta: 'Chiama la cantina',
+      directionsCta: 'Indicazioni stradali',
+      legal:
+        'Vini biologici certificati · Reg. CE 2092/91. Campagna finanziata ai sensi del regolamento (UE) n. 1308/2013. I dati tecnici riportati nel catalogo sono estratti dalla documentazione ufficiale ERREDIA.',
+      mapTitle: 'Mappa cantina ERREDIA',
+    },
+    footer: {
+      rights: 'Vini Biologici',
+      privacy: 'Privacy',
+    },
+    privacy: {
+      eyebrow: 'Informativa',
+      title: 'Privacy Policy',
+      updated: 'Ultimo aggiornamento: maggio 2026',
+      sections: [
+        {
+          title: 'Titolare del trattamento',
+          body: 'ERREDIA — Radica Domenico Angelo, Via dei Vigneti n. 4, 65024 Manoppello Scalo (PE), Italia. Tel. 085.8561902.',
+        },
+        {
+          title: 'Dati raccolti da questo sito',
+          body: 'Il presente sito è una vetrina informativa. Non raccogliamo dati tramite moduli online né effettuiamo profilazione. L\'unico contatto previsto avviene telefonicamente o tramite il sito istituzionale errediaorganicwines.it.',
+        },
+        {
+          title: 'Cookie e strumenti di terze parti',
+          body: 'Potremmo utilizzare cookie tecnici strettamente necessari al funzionamento del sito. La mappa integrata (Google Maps) può installare cookie di terze parti secondo le policy di Google. Puoi gestire le preferenze dal browser.',
+        },
+        {
+          title: 'Diritti dell\'interessato',
+          body: 'Ai sensi del Reg. UE 2016/679 (GDPR) puoi richiedere accesso, rettifica o cancellazione dei dati scrivendo al titolare ai recapiti indicati sopra.',
+        },
+      ],
+    },
+    technicalFields: {
+      tipologia: 'Tipologia',
+      vitigno: 'Vitigno',
+      vinificazione: 'Vinificazione',
+      affinamento: 'Affinamento',
+      colore: 'Colore',
+      profumo: 'Profumo',
+      sapore: 'Sapore',
+      gradazione: 'Gradazione alcolica',
+      temperatura: 'Temperatura di servizio',
+      terreno: 'Natura del terreno',
+      esposizione: 'Esposizione',
+      altitudine: 'Altitudine',
+      allevamento: 'Sistema di allevamento',
+      potatura: 'Sistema di potatura',
+      densita: 'Densità piante/ettaro',
+      produzione: 'Produzione media/ettaro',
+      raccolta: 'Raccolta',
+    },
+    organoleptic: {
+      color: 'Colore',
+      scent: 'Profumo',
+      flavor: 'Sapore',
+    },
+    pairing: {
+      beef: 'Carni rosse',
+      grill: 'Griglia',
+      fish: 'Pesce',
+      poultry: 'Carne bianca',
+      pasta: 'Primi piatti',
+      shellfish: 'Crostacei',
+      glass: 'Aperitivo',
+    },
+    winery: {
+      description:
+        'Vini biologici certificati, espressione di territorio abruzzese. Uve autoctone vinificate in purezza, a bassissimo contenuto in solfiti.',
+    },
+  },
+  en: {
+    a11y: { skip: 'Skip to content' },
+    nav: {
+      story: 'Story',
+      process: 'Process',
+      catalogue: 'Catalogue',
+      contact: 'Contact',
+    },
+    hero: {
+      eyebrow: 'Organic Wines',
+      titleLine1: 'The Soul of the Land,',
+      titleLine2: 'in Every Sip',
+      ctaCatalogue: 'Explore the Catalogue',
+      ctaStory: 'Our story',
+    },
+    story: {
+      eyebrow: 'Roots & Vision',
+      innovationEyebrow: 'Innovation',
+      innovationTitle: 'Label & Territory',
+    },
+    process: {
+      eyebrow: 'From vine to glass',
+      title: 'The Wine Journey',
+    },
+    catalogue: {
+      eyebrow: 'Collection',
+      title: 'Wine Catalogue',
+      description:
+        'Five labels, five expressions of the Abruzzo terroir. Select a type and open the technical sheet for the full analysis.',
+      filters: {
+        tutti: 'All',
+        rosso: 'Red',
+        rosato: 'Rosé',
+        bianco: 'White',
+      },
+    },
+    modal: {
+      technicalSheet: 'Technical Sheet',
+      close: 'Close',
+      organoleptic: 'Organoleptic Profile',
+      analysis: 'Technical Analysis',
+      pairings: 'Recommended pairings',
+      closeAria: 'Close technical sheet',
+    },
+    contact: {
+      eyebrow: 'Contact',
+      title: 'Visit Us',
+      description:
+        'ERREDIA winery is located in Manoppello Scalo, in the heart of the Abruzzo wine hills. For visits and tastings, please contact us by phone.',
+      addressLabel: 'Address',
+      phoneLabel: 'Phone',
+      websiteLabel: 'Website',
+      visitsLabel: 'Winery visits',
+      visitsText: 'By appointment — call us to arrange your experience.',
+      callCta: 'Call the winery',
+      directionsCta: 'Get directions',
+      legal:
+        'Certified organic wines · EC Reg. 2092/91. Campaign financed under Regulation (EU) No. 1308/2013. Technical data is taken from official ERREDIA documentation.',
+      mapTitle: 'ERREDIA winery map',
+    },
+    footer: {
+      rights: 'Organic Wines',
+      privacy: 'Privacy',
+    },
+    privacy: {
+      eyebrow: 'Legal',
+      title: 'Privacy Policy',
+      updated: 'Last updated: May 2026',
+      sections: [
+        {
+          title: 'Data controller',
+          body: 'ERREDIA — Radica Domenico Angelo, Via dei Vigneti n. 4, 65024 Manoppello Scalo (PE), Italy. Phone +39 085 8561902.',
+        },
+        {
+          title: 'Data collected by this website',
+          body: 'This website is an informational showcase. We do not collect data through online forms or profiling. Contact is by phone or via errediaorganicwines.it.',
+        },
+        {
+          title: 'Cookies and third-party tools',
+          body: 'We may use strictly necessary technical cookies. The embedded map (Google Maps) may set third-party cookies under Google\'s policies. You can manage preferences in your browser.',
+        },
+        {
+          title: 'Your rights',
+          body: 'Under EU Regulation 2016/679 (GDPR) you may request access, rectification or erasure by contacting the controller at the details above.',
+        },
+      ],
+    },
+    technicalFields: {
+      tipologia: 'Type',
+      vitigno: 'Vine',
+      vinificazione: 'Vinification',
+      affinamento: 'Ageing',
+      colore: 'Color',
+      profumo: 'Scent',
+      sapore: 'Flavor',
+      gradazione: 'Alcoholic content',
+      temperatura: 'Serving temperature',
+      terreno: 'Soil type',
+      esposizione: 'Exposure',
+      altitudine: 'Altitude',
+      allevamento: 'Training system',
+      potatura: 'Pruning system',
+      densita: 'Plants per hectare',
+      produzione: 'Average production per hectare',
+      raccolta: 'Harvesting',
+    },
+    organoleptic: {
+      color: 'Color',
+      scent: 'Scent',
+      flavor: 'Flavor',
+    },
+    pairing: {
+      beef: 'Red meats',
+      grill: 'Grill',
+      fish: 'Fish',
+      poultry: 'White meat',
+      pasta: 'First courses',
+      shellfish: 'Shellfish',
+      glass: 'Aperitif',
+    },
+    winery: {
+      description:
+        'Certified organic wines, an expression of the Abruzzo terroir. Native grapes vinified in purity, with very low sulphite content.',
+    },
+  },
+};
+
+export const TECHNICAL_FIELD_KEYS = [
+  'tipologia',
+  'vitigno',
+  'vinificazione',
+  'affinamento',
+  'colore',
+  'profumo',
+  'sapore',
+  'gradazione',
+  'temperatura',
+  'terreno',
+  'esposizione',
+  'altitudine',
+  'allevamento',
+  'potatura',
+  'densita',
+  'produzione',
+  'raccolta',
+];

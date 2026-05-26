@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-deep-black: #0a0a0a;
+  --color-cream: #fdfcf0;
+  --color-burgundy: #8e1b1b;
+  --color-gold: #c5a059;
+  --color-cream-muted: #fdfcf0a6;
+  --color-surface: #121212;
+
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', 'Montserrat', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-deep-black font-sans text-cream antialiased;
+  }
+
+  ::selection {
+    @apply bg-burgundy/40 text-cream;
+  }
+}
