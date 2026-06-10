@@ -20,7 +20,7 @@ export const translations = {
       innovationTitle: 'Etichetta & Territorio',
     },
     process: {
-      eyebrow: 'Dal grappolo alla coppa',
+      eyebrow: 'Dal grappolo al calice',
       title: 'Il Percorso del Vino',
     },
     catalogue: {
@@ -62,6 +62,8 @@ export const translations = {
     footer: {
       rights: 'Vini Biologici',
       privacy: 'Privacy',
+      brandPrefix: 'ERREDIA è un brand di',
+      brandLink: 'Tenuta Arabona',
     },
     privacy: {
       eyebrow: 'Informativa',
@@ -121,7 +123,7 @@ export const translations = {
     },
     winery: {
       description:
-        'Vini biologici certificati, espressione di territorio abruzzese. Uve autoctone vinificate in purezza, a bassissimo contenuto in solfiti.',
+        'Vini biologici certificati, espressione del territorio abruzzese. Uve autoctone vinificate in purezza, a bassissimo contenuto in solfiti.',
     },
   },
   en: {
@@ -187,6 +189,8 @@ export const translations = {
     footer: {
       rights: 'Organic Wines',
       privacy: 'Privacy',
+      brandPrefix: 'ERREDIA is a brand of',
+      brandLink: 'Tenuta Arabona',
     },
     privacy: {
       eyebrow: 'Legal',

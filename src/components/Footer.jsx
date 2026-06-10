@@ -13,6 +13,17 @@ export function Footer() {
           © {new Date().getFullYear()} {WINERY.name} — {t.footer.rights}
         </p>
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-8">
+          <p className="text-[0.65rem] tracking-[0.08em] text-cream-muted normal-case">
+            {t.footer.brandPrefix}{' '}
+            <a
+              href={WINERY.parentBrandUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="uppercase tracking-[0.2em] transition-colors hover:text-gold"
+            >
+              {t.footer.brandLink}
+            </a>
+          </p>
           <a
             href="#privacy"
             className="text-[0.65rem] uppercase tracking-[0.2em] text-cream-muted transition-colors hover:text-gold"

@@ -9,6 +9,7 @@ export const WINERY = {
   address: 'Via dei Vigneti n. 4, 65024 Manoppello Scalo (PE), Italia',
   phone: '085.8561902',
   website: 'https://www.errediaorganicwines.it',
+  parentBrandUrl: 'https://www.tenutaarabona.it',
   mapQuery: 'Via dei Vigneti 4, Manoppello Scalo PE',
 };
 
@@ -106,8 +107,8 @@ export const wines = [
       },
       scent: {
         value: {
-          it: 'Frutti di bosco, rosa canina',
-          en: 'Red berry fruits, dog rose',
+          it: 'Ciliegie e fragola',
+          en: 'Cherry and strawberry',
         },
         intensity: 75,
       },
@@ -119,12 +120,12 @@ export const wines = [
     technicalSheet: {
       it: {
         tipologia: 'Rosato',
-        vitigno: 'Montepulciano 100%',
+        vitigno: 'Uve autoctone rosse',
         vinificazione:
-          'Fermentazione a temperatura controllata in assenza di vinacce',
+          'Dopo una breve criomacerazione, fermentazione in assenza di vinacce',
         affinamento: 'Acciaio',
         colore: 'Rosso ciliegia vivo',
-        profumo: 'Frutti di bosco a bacca rossa e rosa canina',
+        profumo: 'Ciliegie e fragola',
         sapore: 'Fresco, fruttato',
         gradazione: '12,5/13% vol',
         temperatura: '14/16 °C',
@@ -139,11 +140,11 @@ export const wines = [
       },
       en: {
         tipologia: 'Rosé',
-        vitigno: 'Montepulciano 100%',
-        vinificazione: 'Fermentation at controlled temperature without marc',
+        vitigno: 'Native red grapes',
+        vinificazione: 'After a brief cryo-maceration, fermentation without marc',
         affinamento: 'Steel',
         colore: 'Vivid cherry-red',
-        profumo: 'Red berry fruits, elegant',
+        profumo: 'Cherry and strawberry',
         sapore: 'Fresh, fruity',
         gradazione: '12.5/13% vol',
         temperatura: '14/16 °C',
@@ -195,7 +196,7 @@ export const wines = [
         tipologia: 'Bianco',
         vitigno: 'Trebbiano 100%',
         vinificazione:
-          'Fermentazione a temperatura controllata in assenza di vinacce',
+          'Dopo una breve criomacerazione, fermentazione in assenza di vinacce',
         affinamento: 'Acciaio',
         colore: 'Giallo paglierino, riflessi verdolini',
         profumo: 'Frutta gialla, fiori di campo',
@@ -214,7 +215,7 @@ export const wines = [
       en: {
         tipologia: 'White',
         vitigno: 'Trebbiano 100%',
-        vinificazione: 'Fermentation at controlled temperature without marc',
+        vinificazione: 'After a brief cryo-maceration, fermentation without marc',
         affinamento: 'Steel',
         colore: 'Straw yellow, greenish reflections',
         profumo: 'Yellow fruits, wild flowers',
@@ -272,7 +273,7 @@ export const wines = [
         tipologia: 'Bianco',
         vitigno: 'Pecorino 100%',
         vinificazione:
-          'Fermentazione a temperatura controllata in assenza di vinacce',
+          'Dopo una breve criomacerazione, fermentazione in assenza di vinacce',
         affinamento: 'Acciaio',
         colore: 'Giallo con venature verdi',
         profumo: 'Fruttato, con note agrumate e finale balsamico',
@@ -291,7 +292,7 @@ export const wines = [
       en: {
         tipologia: 'White',
         vitigno: 'Pecorino 100%',
-        vinificazione: 'Fermentation at controlled temperature without marc',
+        vinificazione: 'After a brief cryo-maceration, fermentation without marc',
         affinamento: 'Steel',
         colore: 'Yellow with green veins',
         profumo: 'Fruity with citrus notes and slight balsamic finish',
@@ -349,7 +350,7 @@ export const wines = [
         tipologia: 'Bianco',
         vitigno: 'Passerina 100%',
         vinificazione:
-          'Fermentazione a temperatura controllata in assenza di vinacce',
+          'Dopo una breve criomacerazione, fermentazione in assenza di vinacce',
         affinamento: 'Acciaio',
         colore: 'Giallo tenue, riflessi verdolini',
         profumo: 'Frutta bianca e note di frutta esotica',
@@ -368,7 +369,7 @@ export const wines = [
       en: {
         tipologia: 'White',
         vitigno: 'Passerina 100%',
-        vinificazione: 'Fermentation at controlled temperature without marc',
+        vinificazione: 'After a brief cryo-maceration, fermentation without marc',
         affinamento: 'Steel',
         colore: 'Light yellow, greenish reflections',
         profumo: 'White fruit with exotic fruit notes',
@@ -397,8 +398,8 @@ export const PRODUCTION_STEPS = [
       en: 'Vineyard',
     },
     description: {
-      it: 'Coltivazioni bio certificate dal 1991. Uve autoctone — Montepulciano, Trebbiano, Pecorino, Passerina — su terreni argilloso-calcarei tra Majella e Gran Sasso.',
-      en: 'Organic certified farming since 1991. Native grapes — Montepulciano, Trebbiano, Pecorino, Passerina — on clay-limestone soils between the Majella and Gran Sasso.',
+      it: 'Coltivazioni bio certificate dal 1991. Uve autoctone — Montepulciano, Trebbiano, Pecorino, Passerina — ai pedi del massiccio della Majella, su terreni argilloso-calcarei.',
+      en: 'Organic certified farming since 1991. Native grapes — Montepulciano, Trebbiano, Pecorino, Passerina — at the foot of the Majella massif, on clay-limestone soils.',
     },
   },
   {
@@ -409,8 +410,8 @@ export const PRODUCTION_STEPS = [
       en: 'Winery',
     },
     description: {
-      it: 'Vinificazione naturale in purezza, fermentazioni a temperatura controllata e affinamento in acciaio per preservare freschezza e territorialità.',
-      en: 'Natural vinification in purity, controlled-temperature fermentations and ageing in steel to preserve freshness and terroir.',
+      it: 'Vinificazione naturale in purezza, fermentazioni e affinamento in acciaio per preservare freschezza e territorialità.',
+      en: 'Natural vinification in purity, fermentations and ageing in steel to preserve freshness and terroir.',
     },
   },
   {
@@ -431,12 +432,12 @@ export const STORY_CONTENT = {
   heritage: {
     title: { it: 'La Nostra Eredità', en: 'Our Heritage' },
     body: {
-      it: `Domenico Radica — vignaiolo naturale, radicato nella terra abruzzese — porta con sé due generazioni di viticoltura e una formazione in agraria ed enologia. Dal 1987 introduce metodi eco-sostenibili; nel 1991 la cantina diventa la seconda in Abruzzo certificata biologica secondo il regolamento CE 2092/91.
+      it: `Domenico Radica — vignaiolo autentico, radicato nella terra abruzzese — porta con sé due generazioni di viticoltura e una formazione in agraria ed enologia. Dal 1987 introduce metodi eco-sostenibili; nel 1991 l'azienda diventa la seconda in Abruzzo certificata biologica secondo il regolamento CE 2092/91.
 
-Oggi ERREDIA è espressione di semplice naturalità e forte territorialità: vini da uve autoctone, vinificati con rispetto dell'ambiente e delle mani che li custodiscono.`,
-      en: `Domenico Radica — a natural winegrower rooted in Abruzzo — carries two generations of viticulture and training in agriculture and oenology. Since 1987 he has introduced eco-sustainable methods; in 1991 the estate became the second in Abruzzo certified organic under EC Regulation 2092/91.
+Oggi ERREDIA è espressione di semplice autenticità e forte territorialità: vini da uve autoctone, vinificati con rispetto dell'ambiente e delle mani che li custodiscono.`,
+      en: `Domenico Radica — an authentic winegrower rooted in Abruzzo — carries two generations of viticulture and training in agriculture and oenology. Since 1987 he has introduced eco-sustainable methods; in 1991 the estate became the second in Abruzzo certified organic under EC Regulation 2092/91.
 
-Today ERREDIA expresses simple naturalness and strong terroir: wines from native grapes, made with respect for the environment and the hands that tend them.`,
+Today ERREDIA expresses simple authenticity and strong terroir: wines from native grapes, made with respect for the environment and the hands that tend them.`,
     },
   },
   innovation: {
@@ -446,12 +447,12 @@ Today ERREDIA expresses simple naturalness and strong terroir: wines from native
       en: 'Label & Territory',
     },
     body: {
-      it: `L'etichetta ERREDIA — disegnata da Stefano Schiazza — traduce in segno grafico Majella, Gran Sasso, il fiume Pescara e le colline pescaresi. Innovazione qui significa continuità consapevole: bassissimi solfiti, purezza varietale, trasparenza analitica.
+      it: `L'etichetta ERREDIA — disegnata da Stefano Schiazza, amico da sempre di Domenico — traduce in segno grafico Majella, Gran Sasso, il fiume Pescara e le colline pescaresi. Innovazione qui significa continuità consapevole: bassissimi solfiti, purezza varietale, trasparenza analitica.
 
-La nuova generazione — Giada e Samuele Radica — prosegue il dialogo tra tradizione contadina e rigore enologico contemporaneo.`,
-      en: `The ERREDIA label — designed by Stefano Schiazza — translates the Majella, Gran Sasso, the Pescara river and the hills of Pescara into graphic form. Innovation here means conscious continuity: very low sulphites, varietal purity, analytical transparency.
+La nuova generazione — Giada e Samuele Radica — proseguono il dialogo tra tradizione contadina e rigore enologico contemporaneo.`,
+      en: `The ERREDIA label — designed by Stefano Schiazza, a lifelong friend of Domenico — translates the Majella, Gran Sasso, the Pescara river and the hills of Pescara into graphic form. Innovation here means conscious continuity: very low sulphites, varietal purity, analytical transparency.
 
-The new generation — Giada and Samuele Radica — continues the dialogue between farming tradition and contemporary winemaking rigour.`,
+The new generation — Giada and Samuele Radica — continue the dialogue between farming tradition and contemporary winemaking rigour.`,
     },
     image: '/images/label-story.webp',
   },
